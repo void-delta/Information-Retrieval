@@ -7,6 +7,9 @@ from utils.indexer import InvertedIndex
 from utils.features import FeatureEngineer
 import os
 import numpy as np
+import nltk
+nltk.download('stopwords')
+
 
 MODEL_DIR = "data/models"
 
