@@ -2,6 +2,8 @@
 import re
 import json
 from collections import defaultdict
+import nltk
+nltk.download('stopwords')
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 
