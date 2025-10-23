@@ -1,0 +1,8 @@
+ir-datasets
+scikit-learn
+xgboost
+numpy
+pandas
+streamlit
+nltk
+tqdm
