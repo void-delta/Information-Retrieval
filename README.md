@@ -39,7 +39,9 @@ Based on the test split of 20% of the Cranfield Dataset
 <img width="365" height="261" alt="image" src="https://github.com/user-attachments/assets/7153b9d0-ce38-4556-b391-3957aa96cb04" />
 
 Precision@10: How many of the top 10 are truly relevant?
+
 MAP: Are relevant docs consistently ranked near the top?
+
 Recall@10: How many of all relevant docs did we retrieve within top 10?
 
 You can also run the following queries to judge the system's Boolean Shortlising and the XGBoost LTR retrieval.
@@ -57,6 +59,7 @@ If you have any feedback, please reach out to me at
 
 
 Assignment for CS468: Information Retrieval under Dr. Krishnendu Ghosh.
+
 
 
 
