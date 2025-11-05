@@ -38,8 +38,9 @@ Based on the test split of 20% of the Cranfield Dataset
 
 <img width="365" height="261" alt="image" src="https://github.com/user-attachments/assets/7153b9d0-ce38-4556-b391-3957aa96cb04" />
 
-We can see that the nDCG value is 1 which shows that the LTR model works very well on this dataset. This might be due to the fact that the dataset itself is very small and the qrel given for the standard queries are very good in training the XGBoost ensemble model. In any case they do very well in the standard queries and we do not have the qrels for any other query that we may want to test.
-
+Precision@10: How many of the top 10 are truly relevant?
+MAP: Are relevant docs consistently ranked near the top?
+Recall@10: How many of all relevant docs did we retrieve within top 10?
 
 You can also run the following queries to judge the system's Boolean Shortlising and the XGBoost LTR retrieval.
 
@@ -56,6 +57,7 @@ If you have any feedback, please reach out to me at
 
 
 Assignment for CS468: Information Retrieval under Dr. Krishnendu Ghosh.
+
 
 
 
