@@ -36,7 +36,7 @@ Following are the results for the Cranfield Dataset using Boolean Shortlisting a
 
 Based on the test split of 20% of the Cranfield Dataset
 
-<img width="573" height="277" alt="image" src="https://github.com/user-attachments/assets/6f0e519a-6462-4bb6-8158-bd21c05615e0" />
+<img width="365" height="261" alt="image" src="https://github.com/user-attachments/assets/7153b9d0-ce38-4556-b391-3957aa96cb04" />
 
 We can see that the nDCG value is 1 which shows that the LTR model works very well on this dataset. This might be due to the fact that the dataset itself is very small and the qrel given for the standard queries are very good in training the XGBoost ensemble model. In any case they do very well in the standard queries and we do not have the qrels for any other query that we may want to test.
 
@@ -56,6 +56,7 @@ If you have any feedback, please reach out to me at
 
 
 Assignment for CS468: Information Retrieval under Dr. Krishnendu Ghosh.
+
 
 
 
