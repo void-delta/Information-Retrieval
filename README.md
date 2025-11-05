@@ -27,18 +27,16 @@ Finally we host the entire dataset on Streamlit for interfacing with it and actu
 ```bash
   python -m streamlit run ./app.py
 ```
+
+Or you can visit the hosted project on streamlit at https://cranfield-boolean-ltr.streamlit.app/ 
+
 ## Results
 
 Following are the results for the Cranfield Dataset using Boolean Shortlisting and Learn-to-Rank algorithm. 
 
-Based on the primitive evaluation on the main datatset
-<img width="1251" height="117" alt="image" src="https://github.com/user-attachments/assets/86940213-3817-4e84-af57-76bc6782b9fe" />
-
-Using the standard queries in the Cranfield Dataset to retrieve top 5 documents.
-<img width="1778" height="477" alt="image" src="https://github.com/user-attachments/assets/454216dd-4ff2-4a3d-8898-d4cad12eb3f1" />
-
-This is the graph comparing the normal Boolean Shortlisting and the Learn-to-Rank Model
-<img width="986" height="789" alt="image" src="https://github.com/user-attachments/assets/d70c6397-0c77-49a9-a1e5-3f6c558215f9" />
+Based on the test split of 20% of the Cranfield Dataset
+<img width="573" height="277" alt="image" src="https://github.com/user-attachments/assets/6f0e519a-6462-4bb6-8158-bd21c05615e0" />
+We can see that the nDCG value is 1 which shows that the LTR model works very well on this dataset. This might be due to the fact that the dataset itself is very small and the qrel given for the standard queries are very good in training the XGBoost ensemble model. In any case they do very well in the standard queries and we do not have the qrels for any other query that we may want to test.
 
 
 You can also run the following queries to judge the system's Boolean Shortlising and the XGBoost LTR retrieval.
@@ -56,4 +54,5 @@ If you have any feedback, please reach out to me at
 
 
 Assignment for CS468: Information Retrieval under Dr. Krishnendu Ghosh.
+
 
